@@ -33,9 +33,23 @@ echo \
 ```
 sudo apt update
 ```
+
+### Passo 7: Instalar o Docker Engine, CLI e Containerd
+```
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+### Passo 8: Iniciar e habilitar o serviço do Docker
+```
+sudo systemctl enable --now docker
+```
+
+### Verificar a versão do Docker para garantir que ele foi instalado corretamente
+```
+docker --version
+```
+
 ## ---
-
-
 ## Perguntas
 ### Devo instalar o Docker em um ambiente versionado pelo conda por exemplo?
 Não nesse caso. O Conda é um gerenciador de pacotes e ambientes que funciona bem para instalar e isolar pacotes de Python e algumas dependências do sistema. 
