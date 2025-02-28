@@ -65,8 +65,11 @@ Criar arquivos essenciais para o projeto:
 touch Dockerfile docker-compose.yml app.py requirements.txt
 ```
 Dockerfile → Define a imagem do container Python.
+
 docker-compose.yml → Gerencia os containers (Python + MySQL).
+
 app.py → Código principal da aplicação Python.
+
 requirements.txt → Lista as bibliotecas Python necessárias.
 
 
