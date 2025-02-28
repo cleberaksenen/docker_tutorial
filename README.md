@@ -1,5 +1,5 @@
 # Docker tutorial
-## Istalação
+## Instalação
 ### Passo 01: Atualizar os pacotes do sistema
 ```
 sudo apt update && sudo apt upgrade -y
@@ -54,3 +54,22 @@ docker --version
 ### Devo instalar o Docker em um ambiente versionado pelo conda por exemplo?
 Não nesse caso. O Conda é um gerenciador de pacotes e ambientes que funciona bem para instalar e isolar pacotes de Python e algumas dependências do sistema. 
 No entanto, o Docker não é um pacote Python, mas sim um serviço que roda no nível do sistema operacional.
+
+
+## ---
+## Projetos
+### Análises de metagenômica bacteriana (Python + MySQL)
+### Passo 1: Criar a Estrutura do Projeto
+Criar arquivos essenciais para o projeto:
+```
+touch Dockerfile docker-compose.yml app.py requirements.txt
+```
+Dockerfile → Define a imagem do container Python.
+docker-compose.yml → Gerencia os containers (Python + MySQL).
+app.py → Código principal da aplicação Python.
+requirements.txt → Lista as bibliotecas Python necessárias.
+
+
+
+
+
