@@ -50,6 +50,32 @@ docker --version
 ```
 
 ## ---
+## Como baixar imagens
+Acesse: https://hub.docker.com/
+
+```
+docker pull [imagem]
+```
+
+Exemplo: Executar um container interativo com Python.
+```
+docker pull python
+```
+```
+docker run -it --rm python
+```
+-> Visualizar as imagens:
+```
+docker images
+```
+REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
+python       latest    385ccb8304f6   2 days ago     56MB
+
+
+
+
+
+## ---
 ## Perguntas
 ### Devo instalar o Docker em um ambiente versionado pelo conda por exemplo?
 Não nesse caso. O Conda é um gerenciador de pacotes e ambientes que funciona bem para instalar e isolar pacotes de Python e algumas dependências do sistema. 
