@@ -1,4 +1,7 @@
 # Docker tutorial
+
+![image](https://github.com/user-attachments/assets/c59a1c3f-8a8b-447f-8499-319c01cc1568)
+
 ## Instalação
 ### Passo 01: Atualizar os pacotes do sistema
 ```
