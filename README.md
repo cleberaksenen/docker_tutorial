@@ -54,11 +54,16 @@ docker --version
 ```
 
 ## ---
-## Como baixar imagens
+## Comandos básicos:
+### Como baixar imagens
 Acesse: https://hub.docker.com/
 
 ```
 docker pull [imagem]
+```
+-> Visualizar as imagens:
+```
+docker images
 ```
 
 Exemplo: Executar um container interativo com Python.
@@ -68,12 +73,8 @@ docker pull python
 ```
 docker run -it --rm python
 ```
--> Visualizar as imagens:
-```
-docker images
-```
-REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
-python       latest    385ccb8304f6   2 days ago     56MB
+
+
 
 
 
